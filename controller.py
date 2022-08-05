@@ -82,8 +82,5 @@ def main():
     pprint(new_list[0:25])
     return chart
 
-#main()
 if __name__ == '__main__':
-    import sys
-    args = len(sys.argv)
-    print(args)
+    main()
